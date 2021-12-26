@@ -15,8 +15,8 @@ view my résumé 👈`,
 const Home = () => {
   return (
     <Grid container direction="column" alignItems="center">
-      <IntroCardComponent sample_content={TEXT_RESOURCES["intro"]} speed={90} />
-      <SocialCardComponent quote={TEXT_RESOURCES["quote"]} />
+      <IntroCardComponent sample_content={TEXT_RESOURCES.intro} speed={90} />
+      <SocialCardComponent quote={TEXT_RESOURCES.quote} />
     </Grid>
   );
 };

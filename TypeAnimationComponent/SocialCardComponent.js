@@ -31,9 +31,9 @@ export default function SocialCardComponent({ quote }) {
         <Typography sx={{ mb: 1.5 }} color="text.secondary">
           I ♥ this
         </Typography>
-        <Typography variant="body2">
-          {quote["text"]}
-          <br />― {quote["author"]}
+        <Typography variant="body1">
+          {quote.text}
+          <br />― {quote.author}
         </Typography>
       </CardContent>
       <CardActions>
