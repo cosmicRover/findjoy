@@ -5,7 +5,7 @@ import Grid from "@mui/material/Grid";
 const TEXT_RESOURCES = {
   intro: `Hello! 👋
 My name is Joy, 
-please view my résumé 👈`,
+view my résumé 👈`,
   quote: {
     text: "“A person's life may be a lonely thing by nature, but it is not isolated. To that life other lives are linked.”",
     author: "Haruki Murakami",
