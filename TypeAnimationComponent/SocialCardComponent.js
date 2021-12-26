@@ -3,9 +3,9 @@ import Card from "@mui/material/Card";
 import CardActions from "@mui/material/CardActions";
 import CardContent from "@mui/material/CardContent";
 import IconButton from "@mui/material/IconButton";
-import GithubIcon from "@mui/icons-material/Github";
-import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import PDFIcon from "@mui/icons-material/PictureAsPdf";
+import GithubIcon from "@material-ui/icons/GitHub";
+import LinkedInIcon from "@material-ui/icons/LinkedIn";
+import PDFIcon from "@material-ui/icons/PictureAsPdf";
 import Typography from "@mui/material/Typography";
 import constants from "../link_constants/constants.js";
 
