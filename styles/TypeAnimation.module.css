@@ -1,0 +1,16 @@
+@keyframes blink {
+  from {
+    opacity: 0%;
+  }
+  to {
+    opacity: 100%;
+  }
+}
+
+.writer::after {
+    content: "|";
+  animation: blink 1s infinite;
+}
+.writer{
+    
+}
