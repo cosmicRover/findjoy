@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import styles from '../../styles/TypeAnimation.module.css';
+import styles from '../styles/TypeAnimation.module.css';
 
 const TypeWriter = ({ content = "", speed = 1000 }) => {
   const [displayedContent, setDisplayedContent] = useState("");

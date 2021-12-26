@@ -7,7 +7,7 @@ import GithubIcon from "@mui/icons-material/Github";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import PDFIcon from "@mui/icons-material/PictureAsPdf";
 import Typography from "@mui/material/Typography";
-import constants from "../constants.js";
+import constants from "../link_constants/constants.js";
 
 function handleGitClick() {
   window.open(constants.git);

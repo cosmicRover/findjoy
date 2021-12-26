@@ -3,7 +3,7 @@ import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import Typography from "@mui/material/Typography";
 import TypeAnimation from "./TypeAnimation.js";
-import constants from "../constants.js";
+import constants from "../link_constants/constants.js";
 
 const handleResumeClick = () => {
   window.open(constants.resume);

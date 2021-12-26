@@ -1,5 +1,5 @@
-import IntroCardComponent from "./TypeAnimationComponent/IntroCardComponent";
-import SocialCardComponent from "./TypeAnimationComponent/SocialCardComponent";
+import IntroCardComponent from "../TypeAnimationComponent/IntroCardComponent";
+import SocialCardComponent from "../TypeAnimationComponent/SocialCardComponent";
 import Grid from "@mui/material/Grid";
 
 const TEXT_RESOURCES = {
