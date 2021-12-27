@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import styles from '../styles/TypeAnimation.module.css';
+import styles from "../styles/TypeAnimation.module.css";
 
 const TypeWriter = ({ content = "", speed = 1000 }) => {
   const [displayedContent, setDisplayedContent] = useState("");
@@ -17,16 +17,15 @@ const TypeWriter = ({ content = "", speed = 1000 }) => {
           clearInterval(animKey);
           return index;
         }
-        return index+1;
+        return index + 1;
       });
     }, speed);
   }, []);
 
   useEffect(() => {
-     setDisplayedContent(
-       (displayedContent) =>
-         displayedContent + content[index]
-     );
+    setDisplayedContent(
+      (displayedContent) => displayedContent + content[index]
+    );
   }, [index]);
 
   return <pre className={styles.writer}>{displayedContent}</pre>;

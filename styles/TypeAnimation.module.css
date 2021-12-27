@@ -8,9 +8,10 @@
 }
 
 .writer::after {
-    content: "|";
+  content: "|";
   animation: blink 1s infinite;
 }
-.writer{
-    
+
+.writer:hover {
+  cursor: pointer;
 }
