@@ -1,6 +1,6 @@
 const constants = {
   resume:
-    "https://drive.google.com/file/d/1-eA0gcjZ7Njwk16eIx77KkBrw8nO9I0P/view?usp=sharing",
+    "https://drive.google.com/file/d/1Wpxo0CR2qxBP2n6uhlPO0sMngSlON_zy/view?usp=sharing",
 
   in: "https://www.linkedin.com/in/joy-paul-050586b1/",
   git: "https://github.com/cosmicRover",
